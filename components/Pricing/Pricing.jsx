@@ -62,7 +62,7 @@ const Pricing = () => {
     <div className="pmain__pcards pcards">
       <div className="pcards__inner">
         <div className="pcards__pcard pcard">
-          <h2 className="pcard__heading">Essentials</h2>
+          <h2 className="pcard__heading">HOMY</h2>
           <p className="pcard__price">₹499 onwards</p>
           <ul role="list" className="pcard__bullets flow">
             <li>Access to standard workouts and nutrition plans</li>
@@ -72,7 +72,7 @@ const Pricing = () => {
         </div>
   
         <div className="pcards__pcard pcard">
-          <h2 className="pcard__heading">Expert</h2>
+          <h2 className="pcard__heading">HOMY PRO</h2>
           <p className="pcard__price">₹1,999 onwards</p>
           <ul role="list" className="pcard__bullets flow">
             <li>Access to advanced workouts and nutrition plans</li>
@@ -83,7 +83,7 @@ const Pricing = () => {
         </div>
   
         <div className="pcards__pcard pcard">
-          <h2 className="pcard__heading">Celebrity</h2>
+          <h2 className="pcard__heading">HOMY PRO MAX</h2>
           <p className="pcard__price">₹4,999 onwards</p>
           <ul role="list" className="pcard__bullets flow">
             <li>Access to all premium workouts and nutrition plans</li>

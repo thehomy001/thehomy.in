@@ -16,13 +16,13 @@ const Navbar = () => {
 				</div>
 			</Link>
 
-			<form className="search">
+			{/* <form className="search">
 				<img src="./search.png" alt="" />
 				<input type="text" placeholder="Enter Your Location" />
 				<button type="submit">
 					<LuLocateFixed /> Locate me
 				</button>
-			</form>
+			</form> */}
 			<div className="header-text">
 				<div className="header-text2">
 					<Link to="/" style={{ textDecorationLine: "none" }}>
@@ -49,9 +49,9 @@ const Navbar = () => {
 					</Link>
 				</div>
 			</div>
-			<Link to="/login" style={{ textDecorationLine: "none" }}>
+			{/* <Link to="/login" style={{ textDecorationLine: "none" }}>
 				<div className="loginbtn">Login</div>
-			</Link>
+			</Link> */}
 
 			<div className="ham">
 				<div
@@ -66,7 +66,7 @@ const Navbar = () => {
 					data-aos-easing="linear"
 					data-aos-duration="150" >
 						<Link
-							to="/Signup"
+							to="/FeebackForm"
 							style={{
 								color: "black",
 								textDecorationLine: "none",

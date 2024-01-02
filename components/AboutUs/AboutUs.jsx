@@ -42,7 +42,7 @@ const AboutUs = () => {
 					practices for a greener future across all operations.
 				</p>
 			</div>
-			<div className="second"></div>
+			{/* <div className="second"></div>
 			<div className="second-container">
 				<div className="seconddata">
 					<h1
@@ -169,7 +169,7 @@ const AboutUs = () => {
 						</p>
 					</p>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 };

@@ -45,11 +45,12 @@
 	margin-bottom: 2vw;
 }
 .li-style {
-	margin: 10px;
-	font-size: 32px;
+	display: flex;
+	margin: 15px;
+	font-size: 20px;
+	font-weight: 450;
 	list-style: none;
 }
-
 .service-text {
 	padding: 10px;
 	font-weight: 450;
@@ -86,16 +87,26 @@ h4 img {
 		position: absolute;
 		left: 25vw;
 	}
-	.services-inner-box-2 h1{
-		margin-bottom: 10px;
+	.services-inner-box-2 h2{
+		font-size: 32px;
+		margin: 10px;
 	}
 	.services-inner-box-2 h2{
 		margin-bottom: 30px;
 	}
 	.service-text{ 
-		font-size: 15px;
-		text-align: center;
-		margin-bottom: 30px;
+		letter-spacing: 1px;
+		font-size: 18px;
+		font-weight: 400;
+		text-align: left;
+		margin: 0px;
 	}
 
+	.li-style {
+		display: flex;
+		margin: 15px;
+		font-size: 20px;
+		font-weight: 380;
+		list-style: none;
+	}
 }

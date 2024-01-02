@@ -31,34 +31,27 @@ const Services = () => {
 							data-aos-duration="400"
 						>
 							<li>
-								<span className="li-style"></span>Weekly Meal
+								<span className="li-style">
+								Weekly Meal
 								Planning
+								</span>
+							</li>
+				
+							<li>
+								<span className="li-style">Trained cooks</span>
+							</li>
+						
+							<li>
+								<span className="li-style">Set Your Spicy
+								meter</span>
 							</li>
 							<li>
-								<span className="li-style"></span>Daily Meal
-								Planning
-							</li>
-							<li>
-								<span className="li-style"></span>Trained cooks
-							</li>
-							<li>
-								<span className="li-style"></span>Trained cooks
-							</li>
-							<li>
-								<span className="li-style"></span>Set Your Spicy
-								meter
-							</li>
-							<li>
-								<span className="li-style"></span>Set Your
-								calorie meter
-							</li>
-							<li>
-								<span className="li-style"></span>Daily customer
-								feedback
+								<span className="li-style">Set Your
+								calorie meter</span>
 							</li>
 
 							<li>
-								<span className="li-style"></span>Kitchen kit.
+								<span className="li-style">Kitchen kit</span>
 							</li>
 						</ul>
 						<Link to="/FeebackForm" style={{ textDecorationLine: "none" }}>
@@ -134,23 +127,23 @@ const Services = () => {
 							data-aos-duration="400"
 						>
 							<li>
-								<span className="li-style"></span>Trained staff
+								<span className="li-style">Trained staff</span>
 							</li>
 							<li>
-								<span className="li-style"></span>Our cleaners
-								Prioritize your satisfaction
+								<span className="li-style">Our cleaners
+								Prioritize your satisfaction</span>
 							</li>
 							<li>
-								<span className="li-style"></span>Equipped with
-								experience and training
+								<span className="li-style">Equipped with
+								experience and training</span>
 							</li>
 							<li>
-								<span className="li-style"></span>Adaptable to
-								your needs
+								<span className="li-style">Adaptable to
+								your needs</span>
 							</li>
 
 							<li>
-								<span className="li-style"></span>Maintain a professional demeanor
+								<span className="li-style">Maintain a professional demeanor</span>
 							</li>
 
 						
@@ -168,8 +161,7 @@ const Services = () => {
 						<h1>Mr. Hygiene</h1>
 						<h2> <PiToilet/> Toilet Cleaner</h2>
 
-						<span className="service-text">
-							At Thehomy, our toilet cleaners are clean,
+						<span className="service-text">At Thehomy, our toilet cleaners are clean,
 							dedicated, and trusted. They're verified by the
 							police, carry their own kits, and ensure a spotless
 							and safe bathroom for you.
@@ -179,21 +171,21 @@ const Services = () => {
 							data-aos-easing="linear"
 							data-aos-duration="400">
 							<li>
-								<span className="li-style"></span>Police
-								verified
+								<span className="li-style">Police
+								verified</span>
 							</li>
 							<li>
-								<span className="li-style"></span>Hygiene
-								checked
-							</li>
-
-							<li>
-								<span className="li-style"></span>Trained staff
+								<span className="li-style">Hygiene
+								checked</span>
 							</li>
 
 							<li>
-								<span className="li-style"></span>Toilet
-								cleaner kit
+								<span className="li-style">Trained staff</span>
+							</li>
+
+							<li>
+								<span className="li-style">Toilet
+								cleaner kit</span>
 							</li>
 						</ul>
 						<Link to="/FeebackForm" style={{ textDecorationLine: "none" }}>

@@ -15,7 +15,7 @@ function Contact() {
 							type="text"
 							className="input"
 						/>
-						<span>Firstname</span>
+						<span>First Name</span>
 					</label>
 
 					<label>
@@ -25,7 +25,7 @@ function Contact() {
 							type="text"
 							className="input"
 						/>
-						<span>Lastname</span>
+						<span>Last Name</span>
 					</label>
 				</div>
 
@@ -46,7 +46,7 @@ function Contact() {
 						type="text"
 						className="input"
 					/>
-					<span>Contact Info</span>
+					<span>Phone Number</span>
 				</label>
 				<label>
 					<textarea

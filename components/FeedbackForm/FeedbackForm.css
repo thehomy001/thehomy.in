@@ -213,5 +213,11 @@
     }
     .box img{
       display: none;
+
+    }
+    .submit{
+      display: block;
+      margin: 20px;
+      margin-bottom: 0;
     }
   }

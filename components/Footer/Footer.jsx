@@ -81,18 +81,18 @@ export default function App() {
 								<ul className="list-unstyled mb-0">
 									<li>
 										<a href="./FeebackForm" className="text-footer">
-											Cooks
+											Chef
 										</a>
 									</li>
 									
 									<li>
-										<a href="FeebackForm" className="text-footer">
+										<a href="./FeebackForm" className="text-footer">
 											Toilet Cleaners
 										</a>
 									</li>
 									<li>
-										<a href="FeebackForm" className="text-footer">
-											Baby Sitters
+										<a href="./FeebackForm" className="text-footer">
+											Home Cleaners
 										</a>
 									</li>
 								
@@ -107,6 +107,9 @@ export default function App() {
 										<a href="#!" className="text-footer">
 											info@thehomy.in
 										</a>
+									</li>
+									<li>
+									+91 81305 19564
 									</li>
 								</ul>
 							</MDBCol>
