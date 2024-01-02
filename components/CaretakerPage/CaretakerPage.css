@@ -1,0 +1,8 @@
+.Caretaker-container{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.Caretaker-container img{
+    width: 400px;
+}

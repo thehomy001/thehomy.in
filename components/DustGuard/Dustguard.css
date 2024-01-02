@@ -1,0 +1,8 @@
+.Dustguard-container{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.Dustguard-container img{
+    width: 400px;
+}

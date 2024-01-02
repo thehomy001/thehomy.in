@@ -1,0 +1,101 @@
+@font-face {
+	font-family: Head;
+	src: url(../../public/font1/JosefinSans-Regular.ttf);
+}
+.services-main-box {
+	height: auto;
+}
+
+.services-inner-box-1 {
+	margin: 2vw;
+	margin-top: 20vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.services-inner-box-2 {
+	margin: 2vw;
+	margin-top: 10vh;
+	margin-bottom: 25vh;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: center;
+}
+.services-inner-box-1 img {
+	width: 40vw;
+	margin-right: 40px;
+}
+.services-inner-box-2 img {
+	width: 40vw;
+}
+.services-main-box h1 {
+	text-align: center;
+	font-size: 3vw;
+	font-weight: 600;
+	margin: 2vw;
+}
+
+.services-main-box h2 {
+	text-align: center;
+	/* font-size: 2.2vw; */
+	color: #1e1e1e;
+	font-weight: 600;
+	margin-bottom: 2vw;
+}
+.li-style {
+	margin: 10px;
+	font-size: 32px;
+	list-style: none;
+}
+
+.service-text {
+	padding: 10px;
+	font-weight: 450;
+	font-size: 24px;
+}
+.servicebtn {
+	position: absolute;
+	padding-right: 10px;
+	left: 3vw;
+	margin-top: 20px;
+
+	width: 210px;
+}
+h4 img {
+	width: 30px;
+}
+.services-inner-box-2 h1 {
+	color: #e23744;
+}
+
+
+@media (max-width:600px){
+	.services-box h1{
+		font-size: 42px;
+		margin:30px 0px 0px 0px;
+	}
+	.services-inner-box-2{
+		margin:0px 20px 100px 20px ;
+	}
+	.services-inner-box-2 img{
+		display: none;
+	}
+	.servicebtn{
+		position: absolute;
+		left: 25vw;
+	}
+	.services-inner-box-2 h1{
+		margin-bottom: 10px;
+	}
+	.services-inner-box-2 h2{
+		margin-bottom: 30px;
+	}
+	.service-text{ 
+		font-size: 15px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+}

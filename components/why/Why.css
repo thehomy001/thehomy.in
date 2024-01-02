@@ -1,0 +1,20 @@
+.why-head {
+	font-family: poppins;
+	margin-bottom: 30px;
+
+	font-size: 30px;
+}
+.why-data {
+	font-family: poppins;
+	font-size: 18px;
+}
+@media (max-width: 600px) {
+	.why-head {
+		text-align: center;
+		margin: 30px;
+        font-size: 24px;
+	}
+    .why-data{
+        font-size: 15px;
+    }
+}
