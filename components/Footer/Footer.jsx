@@ -41,14 +41,14 @@ export default function App() {
 							to="https://th.bing.com/th/id/OIG.oAvoqHNli7n2MAJSkt59?pid=ImgGn"
 							target="_blank"
 						>
-							<img src="./public/ps.png" alt="" srcSet="" />
+							<img src="./ps.png" alt="" srcSet="" />
 						</Link>
 
 						<Link
 							to="https://th.bing.com/th/id/OIG.oAvoqHNli7n2MAJSkt59?pid=ImgGn"
 							target="_blank"
 						>
-							<img src="./public/as.png" alt="" />
+							<img src="./as.png" alt="" />
 						</Link>
 					</div>
 				</div>
@@ -118,7 +118,7 @@ export default function App() {
 										</Link>
 									</li>
 									<li>
-										
+
 										<a
 											
 											className="text-footer"

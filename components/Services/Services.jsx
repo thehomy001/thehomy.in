@@ -13,7 +13,7 @@ const Services = () => {
 			<div className="services-box">
 				<h1>Our Services</h1>
 				<div className="services-inner-box-2">
-					<img src="./public/temp1.jpg" alt="" />
+					<img src="./temp1.jpg" alt="" />
 					<div>
 						<h1>Kitchen King</h1>
 						<h2>
@@ -63,7 +63,7 @@ const Services = () => {
 				</div>
 
 				{/* <div className="services-inner-box-2">
-					<img src="./public/temp2.png" alt="" />
+					<img src="./temp2.png" alt="" />
 					<div>
 						<h1>Nursing Nanny</h1>
 						<h2>Caretaker</h2>
@@ -109,7 +109,7 @@ const Services = () => {
 				</Link> */}
 
 				<div className="services-inner-box-2">
-					<img src="./public/temp4.png" alt="" />
+					<img src="./temp4.png" alt="" />
 					<div>
 						<h1>Dust Guards</h1>
 						<h2><PiBroom/> Cleaners</h2>
@@ -156,7 +156,7 @@ const Services = () => {
 					</div>
 				</div>
 				<div className="services-inner-box-2">
-					<img src="./public/temp3.png" alt="" />
+					<img src="./temp3.png" alt="" />
 					<div>
 						<h1>Mr. Hygiene</h1>
 						<h2> <PiToilet/> Toilet Cleaner</h2>
