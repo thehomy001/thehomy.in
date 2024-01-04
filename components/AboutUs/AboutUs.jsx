@@ -7,6 +7,8 @@ AOS.init();
 const AboutUs = () => {
 	return (
 		<div>
+			<div className="first"></div>
+
 			<div className="firstdata">
 				<h1
 					data-aos="fade"
@@ -24,7 +26,6 @@ const AboutUs = () => {
 					service provider for your comfort
 				</p>
 			</div>
-			<div className="first"></div>
 			<div className="middle-data">
 				<p
 					data-aos="fade"

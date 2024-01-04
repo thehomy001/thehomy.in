@@ -1,7 +1,7 @@
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Link } from "react-router-dom";
-import React,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import {
 	MDBFooter,
 	MDBContainer,
@@ -16,20 +16,19 @@ export default function App() {
 	const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
 
 	useEffect(() => {
-	  // Update the year in the footer copyright every year
-	  const interval = setInterval(() => {
-		const newYear = new Date().getFullYear();
-		if (newYear !== currentYear) {
-		  setCurrentYear(newYear);
-		}
-	  }, 60000); // Check every minute (adjust the interval as needed)
-  
-	  return () => {
-		clearInterval(interval);
-	  };
+		// Update the year in the footer copyright every year
+		const interval = setInterval(() => {
+			const newYear = new Date().getFullYear();
+			if (newYear !== currentYear) {
+				setCurrentYear(newYear);
+			}
+		}, 60000); // Check every minute (adjust the interval as needed)
+
+		return () => {
+			clearInterval(interval);
+		};
 	}, [currentYear]);
-  
-	
+
 	return (
 		<>
 			<MDBFooter className="text-center" color="footer" bgColor="black">
@@ -42,14 +41,14 @@ export default function App() {
 							to="https://th.bing.com/th/id/OIG.oAvoqHNli7n2MAJSkt59?pid=ImgGn"
 							target="_blank"
 						>
-							<img src=".././public/ps.png" alt="" srcSet="" />
+							<img src="./public/ps.png" alt="" srcSet="" />
 						</Link>
 
 						<Link
 							to="https://th.bing.com/th/id/OIG.oAvoqHNli7n2MAJSkt59?pid=ImgGn"
 							target="_blank"
 						>
-							<img src=".././public/as.png" alt="" />
+							<img src="./public/as.png" alt="" />
 						</Link>
 					</div>
 				</div>
@@ -60,18 +59,32 @@ export default function App() {
 								<h5 className="text-uppercase">Company</h5>
 
 								<ul className="list-unstyled mb-0">
-									<li>
-										<a href="#!" className="text-footer">
-											About us
-										</a>
-									</li>
-								
-									<li>
-										<a href="#!" className="text-footer">
-											Register as a Homy
-										</a>
-									</li>
-									
+									<Link
+										to="/AboutUs"
+										style={{ textDecorationLine: "none" }}
+									>
+										<li>
+											<a
+												href="#!"
+												className="text-footer"
+											>
+												About us
+											</a>
+										</li>
+
+										<li>
+											<Link
+												to="/Services"
+												style={{
+													textDecorationLine: "none",
+												}}
+											>
+												<a className="text-footer">
+													Services
+												</a>
+											</Link>
+										</li>
+									</Link>
 								</ul>
 							</MDBCol>
 
@@ -80,22 +93,39 @@ export default function App() {
 
 								<ul className="list-unstyled mb-0">
 									<li>
-										<a href="./FeebackForm" className="text-footer">
-											Chef
-										</a>
+										<Link
+											to="/FeedbackForm"
+											style={{
+												textDecorationLine: "none",
+											}}
+										>
+											<a className="text-footer">Chef</a>
+										</Link>
 									</li>
-									
+
 									<li>
-										<a href="./FeebackForm" className="text-footer">
+									<Link
+											to="/FeedbackForm"
+											style={{
+												textDecorationLine: "none",
+											}}>
+										<a
+											
+											className="text-footer"
+										>
 											Toilet Cleaners
 										</a>
+										</Link>
 									</li>
 									<li>
-										<a href="./FeebackForm" className="text-footer">
-											Home Cleaners
+										
+										<a
+											
+											className="text-footer"
+										>
+											House Cleaners
 										</a>
 									</li>
-								
 								</ul>
 							</MDBCol>
 
@@ -104,12 +134,12 @@ export default function App() {
 
 								<ul className="list-unstyled mb-0">
 									<li>
-										<a href="#!" className="text-footer">
+										<a
+											href="mailto:info@thehomy.in"
+											className="text-footer"
+										>
 											info@thehomy.in
 										</a>
-									</li>
-									<li>
-									+91 81305 19564
 									</li>
 								</ul>
 							</MDBCol>
