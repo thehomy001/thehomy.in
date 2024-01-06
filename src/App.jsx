@@ -174,7 +174,7 @@ function App() {
 						}
 					/>
 					<Route
-						path="/Dustguard"
+						path="/Hygiene"
 						element={
 							<>
 								<Support />

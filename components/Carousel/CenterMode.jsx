@@ -104,7 +104,7 @@ export default class CenterMode extends Component {
 						</div>
 					</Link>
 					<Link
-						to="/cook"
+						to="/Hygiene"
 						style={{ textDecorationLine: "none" }}
 					>
 						{" "}
@@ -129,7 +129,7 @@ export default class CenterMode extends Component {
 						</div>
 					</Link>
 					<Link
-						to="/cook"
+						to="/Hygiene"
 						style={{ textDecorationLine: "none" }}
 					>
 						<div>

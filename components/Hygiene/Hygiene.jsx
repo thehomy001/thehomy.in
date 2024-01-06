@@ -852,7 +852,7 @@ const Hygiene = () => {
 			
 				</div>
 
-				<img src="../../public/temp4.png" alt="" />
+				<img src="../../public/temp3.png" alt="" />
 			</div>
 		</>
 	);
