@@ -1,11 +1,11 @@
 import React from "react";
-import "./CookPage.css";
+// import "./Dustguard.css";x
 import { MdArrowOutward } from "react-icons/md";
 import { Link } from "react-router-dom";
-import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
+import { IoMdClose } from "react-icons/io";
 
-const CookPage = () => {
+const Hygiene = () => {
 	const [selectedOptions1, setSelectedOptions1] = useState(null);
 	const [selectedOptions2, setSelectedOptions2] = useState(null);
 
@@ -387,7 +387,8 @@ const CookPage = () => {
 									>
 										<div className="pop-up-option">
 											<h2>Weekly</h2>
-											<p> ₹ 2,099</p>
+											<p> ₹ 1899
+</p>
 										</div>
 										<hr className="mb-1" />
 
@@ -399,7 +400,7 @@ const CookPage = () => {
 									>
 										<div className="pop-up-option">
 											<h2>Monthly</h2>
-											<p> ₹ 4,499</p>
+											<p> ₹ 4049</p>
 										</div>
 										<hr className="mb-1" />
 
@@ -411,7 +412,7 @@ const CookPage = () => {
 									>
 										<div className="pop-up-option">
 											<h2>Half Yearly</h2>
-											<p> ₹ 22,499</p>
+											<p> ₹ 20249</p>
 										</div>
 										<hr className="mb-1" />
 
@@ -423,7 +424,7 @@ const CookPage = () => {
 									>
 										<div className="pop-up-option">
 											<h2>Yearly</h2>
-											<p> ₹ 35,999</p>
+											<p> ₹ 32399</p>
 											
 										</div>
 										<hr className="mb-1" />
@@ -522,7 +523,7 @@ const CookPage = () => {
 								<p className="ctext-title">Homy Pro</p>
 								<p className="ctext-body">
 									Starting price at{" "}
-									<span className="red">₹ 1999</span>
+									<span className="red">₹ 899</span>
 								</p>
 								<p class="ccard-info red">{selectedOption2}</p>
 							</div>
@@ -542,7 +543,7 @@ const CookPage = () => {
 										>
 											<div className="pop-up-option">
 												<h2>Daily</h2>
-												<p> ₹ 1,999</p>
+												<p> ₹ 899</p>
 											</div>
 										<hr className="mb-1" />
 
@@ -554,7 +555,7 @@ const CookPage = () => {
 										>
 											<div className="pop-up-option">
 												<h2>Weekly</h2>
-												<p> ₹ 8,399</p>
+												<p> ₹ 3779</p>
 											</div>
 										<hr className="mb-1" />
 
@@ -566,7 +567,7 @@ const CookPage = () => {
 										>
 											<div className="pop-up-option">
 												<h2>Monthly</h2>
-												<p> ₹ 17,999</p>
+												<p> ₹ 8099</p>
 											</div>
 										<hr className="mb-1" />
 
@@ -580,7 +581,7 @@ const CookPage = () => {
 										>
 											<div className="pop-up-option">
 												<h2>Half Yearly</h2>
-												<p> ₹ 89,999</p>
+												<p> ₹ 40499</p>
 											</div>
 										<hr className="mb-1" />
 
@@ -592,7 +593,7 @@ const CookPage = () => {
 										>
 											<div className="pop-up-option">
 												<h2>Yearly</h2>
-												<p> ₹ 1,43,999</p>
+												<p> ₹ 64800</p>
 											</div>
 										<hr className="mb-1" />
 
@@ -688,7 +689,7 @@ const CookPage = () => {
 								<p className="ctext-title">Homy Pro Max</p>
 								<p className="ctext-body">
 									Starting price at{" "}
-									<span className="red">₹ 4999</span>
+									<span className="red">₹ 1349</span>
 								</p>
 								<p class="ccard-info red">{selectedOption3}</p>
 							</div>
@@ -709,7 +710,7 @@ const CookPage = () => {
 									>
 										<div className="pop-up-option">
 											<h2>Daily</h2>
-											<p> ₹ 4,999</p>
+											<p> ₹ 1349</p>
 										</div>
 										<hr className="mb-1" />
 
@@ -721,7 +722,7 @@ const CookPage = () => {
 									>
 										<div className="pop-up-option">
 											<h2>Weekly</h2>
-											<p> ₹ 20,999</p>
+											<p> ₹ 5,669</p>
 										</div>
 										<hr className="mb-1" />
 
@@ -733,7 +734,8 @@ const CookPage = () => {
 									>
 										<div className="pop-up-option">
 											<h2>Monthly</h2>
-											<p> ₹ 44,999</p>
+											<p> ₹ 12,149</p>
+
 										</div>
 										<hr className="mb-1" />
 
@@ -746,8 +748,8 @@ const CookPage = () => {
 									>
 										<div className="pop-up-option">
 											<h2>Half Yearly</h2>
+											<p> ₹ 60,749</p>
 											
-											<p> ₹ 2,24,999</p>
 										</div>
 										<hr className="mb-1" />
 
@@ -759,7 +761,8 @@ const CookPage = () => {
 									>
 										<div className="pop-up-option">
 											<h2>Yearly</h2>
-											<p> ₹ 3,59,999</p>
+											<p> ₹ 97,199</p>
+
 										</div>
 										<hr className="mb-1" />
 
@@ -849,10 +852,10 @@ const CookPage = () => {
 			
 				</div>
 
-				<img src="../../public/temp1.jpg" alt="" />
+				<img src="../../public/temp4.png" alt="" />
 			</div>
 		</>
 	);
 };
 
-export default CookPage;
+export default Hygiene;

@@ -54,7 +54,7 @@ const Services = () => {
 								<span className="li-style">Kitchen kit</span>
 							</li>
 						</ul>
-						<Link to="/FeebackForm" style={{ textDecorationLine: "none" }}>
+						<Link to="/cook" style={{ textDecorationLine: "none" }}>
 							<div className="secbutton servicebtn">
 								Book Now <MdArrowOutward />
 							</div>
@@ -148,7 +148,7 @@ const Services = () => {
 
 						
 						</ul>
-						<Link to="/FeebackForm" style={{ textDecorationLine: "none" }}>
+						<Link to="/Dustguard" style={{ textDecorationLine: "none" }}>
 							<div className="secbutton servicebtn">
 								Book Now <MdArrowOutward />
 							</div>

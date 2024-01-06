@@ -1,82 +1,162 @@
-.CookPage-container{
-    display: flex;
-    justify-content: space-around;
-   
+.CookPage-container {
+	display: flex;
+	justify-content: space-around;
 }
-.CookPage-container img{
-    width: 500px;
-    margin-bottom: 50px;
+.CookPage-container img {
+	width: 500px;
+	margin-bottom: 50px;
 }
-.CookPage-container h1{
-    margin-bottom: 20px;
+.CookPage-container h1 {
+	margin-bottom: 20px;
 }
-.CookPage-container h2{
-    margin-bottom: 20px;
+.CookPage-container h2 {
+	margin-bottom: 20px;
 }
-.cardbox{
-    display: flex;
+.cardbox {
+	display: flex;
 }
 .ccard {
-    margin-right:10px ;
-    width: 200px;
-    height: 254px;
-    border-radius: 20px;
-    background: #f5f5f5;
-    position: relative;
-    padding: 1.8rem;
-    border: 2px solid #c3c6ce;
-    transition: 0.5s ease-out;
-    overflow: visible;
-   }
-   
-   .ccard-details {
-    color: black;
-    height: 100%;
-    gap: .5em;
-    display: grid;
-    place-content: center;
-   }
-   
-   .ccard-button {
-    transform: translate(-50%, 125%);
-    width: 60%;
-    border-radius: 1rem;
-    border: none;
-    background-color: #e23744;
-    color: #fff;
-    font-size: 1rem;
-    padding: .5rem 1rem;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    opacity: 0;
-    transition: 0.3s ease-out;
-   }
-   
-   .ctext-body {
-    color: rgb(134, 134, 134);
-   }
-   
-   /*Text*/
-   .ctext-title {
-    font-size: 1.2em;
-    font-weight: bold;
-   }
-   
-   /*Hover*/
-   .ccard:hover {
-    cursor: pointer;
-    border-color: #e23744;
-    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
-   }
+	margin-right: 10px;
+	width: 200px;
+	height: 254px;
+	border-radius: 20px;
+	background: #f5f5f5;
+	position: relative;
+	padding: 1.8rem;
+	border: 2px solid #c3c6ce;
+	transition: 0.5s ease-out;
+	overflow: visible;
+}
 
-   
-   .ccard:hover .card-button {
-    transform: translate(-50%, 50%);
-    opacity: 1;
-   }
-   
-   .cookbtn{
-    margin:50px ;
-    width: fit-content;
-   }
+.ccard-details {
+	color: black;
+	height: 100%;
+	gap: 0.5em;
+	display: grid;
+	place-content: center;
+}
+
+.ccard-button {
+	transform: translate(-50%, 125%);
+	width: 60%;
+	border-radius: 1rem;
+	border: none;
+	background-color: #e23744;
+	color: #fff;
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	opacity: 0;
+	transition: 0.3s ease-out;
+}
+
+.ctext-body {
+    text-align: center;
+    font-size: 20px;
+	color: rgb(0, 0, 0);
+}
+
+/*Text*/
+.ctext-title {
+    position: absolute;
+    top: 20px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/*Hover*/
+.ccard:hover {
+	cursor: pointer;
+	border-color: #e23744;
+	box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.ccard:hover .card-button {
+	transform: translate(-50%, 50%);
+	opacity: 1;
+}
+
+.ccard-info{
+    position: absolute;
+    bottom: 2px;
+    text-align: center;
+    justify-self: center;
+    font-size: 32px;   
+}
+.cookbtn {
+	margin: 50px;
+	width: fit-content;
+}
+.pop-up {
+    /* transition: 5s ease-out; */
+	display: none;
+	position: fixed;
+	top: 5vw;
+	left: 0;
+	/* width: 99vw; */
+	height: 70vh;
+	background-color: #ffffff;
+	z-index: 999;
+}
+.pop-up.active {
+    
+	display: block;
+}
+.pop-up-option {
+	display: flex;
+	
+	/* justify-content: space-around; */
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+.close-button {
+	border: none;
+	background-color: transparent;
+	font-size: 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.pop-up-option :hover{
+	cursor: pointer;
+	color: #e23744;
+}
+.popup-menu h1{
+    position: relative;
+    left: 4vw;
+    
+}
+.pop-up h2 {
+	position: absolute;
+	left: 4vw;
+    font-weight: 450;
+	margin-right: 100px;
+}
+.pop-up-option p {
+	position: relative;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 24px;
+	margin-left: 20vw;
+
+}
+.pop-up-selected{
+	position: relative;
+	left: 4vw;
+	font-size: 42px;
+	font-weight: 600;
+}
+.center{
+	text-align: center;
+}
+.main-popup{
+	width: 99vw;
+	display: flex;
+	justify-content: space-around ;
+}
+.pop-up-timing{
+	left: 0;
+}

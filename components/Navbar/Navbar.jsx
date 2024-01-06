@@ -49,9 +49,9 @@ const Navbar = () => {
 					</Link>
 				</div>
 			</div>
-			{/* <Link to="/login" style={{ textDecorationLine: "none" }}>
+			<Link to="/login" style={{ textDecorationLine: "none" }}>
 				<div className="loginbtn">Login</div>
-			</Link> */}
+			</Link>
 
 			<div className="ham">
 				<div

@@ -54,9 +54,9 @@ const FeedbackForm = () => {
 							<label className="ff-label">
 								<div className="ff-title">HOMY</div>
 								<div className="ff-price">
+									<span className="ff-span">Starting at </span>
 									<span className="ff-span">₹</span>
 									499
-									<span className="ff-span">/month</span>
 								</div>
 							</label>
 						</div>
@@ -71,9 +71,9 @@ const FeedbackForm = () => {
 							<label className="ff-label">
 								<div className="ff-title">HOMY PRO</div>
 								<div className="ff-price">
+									<span className="ff-span">Starting at </span>
 									<span className="ff-span">₹</span>
 									4999
-									<span className="ff-span">/month</span>
 								</div>
 							</label>
 						</div>
@@ -88,9 +88,9 @@ const FeedbackForm = () => {
 							<label className="ff-label">
 								<div className="ff-title">HOMY PRO MAX</div>
 								<div className="ff-price">
+									<span className="ff-span">Starting at </span>
 									<span className="ff-span">₹</span>
 									14999
-									<span className="ff-span">/month</span>
 								</div>
 							</label>
 						</div>

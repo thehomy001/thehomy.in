@@ -20,9 +20,11 @@ import CookPage from "../components/CookPage";
 import CaretakerPage from "../components/CaretakerPage/CaretakerPage";
 import Payment from "../components/Payment";
 import Dustguard from "../components/DustGuard";
-
+import Checkout from "../components/Checkout";
 import Dashboard from "../components/Dashboard/Dashboard";
 import FeebackForm from "../components/FeedbackForm";
+import Hygiene from "../components/Hygiene";
+
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -41,6 +43,7 @@ function App() {
 								{<CenterMode />}
 								{<FeatureBanner />}
 								{<FB />}
+						
 								{<Support />}
 								{<Footer />}
 							</>
@@ -116,12 +119,24 @@ function App() {
 						}
 					/>
 					<Route
+						path="/cook/customize"
+						element={
+							<>
+								{<Support />}
+								{<Navbar />}
+								<FoodForm/>
+								<Footer />
+							</>
+						}
+					/>
+					<Route
 						path="/cook"
 						element={
 							<>
 								{<Support />}
 								{<Navbar />}
 								<CookPage />
+						
 								<Footer />
 							</>
 						}
@@ -154,6 +169,28 @@ function App() {
 								<Support />
 								{<Navbar />}
 								<Dustguard />
+								<Footer />
+							</>
+						}
+					/>
+					<Route
+						path="/Dustguard"
+						element={
+							<>
+								<Support />
+								{<Navbar />}
+								<Hygiene />
+								<Footer />
+							</>
+						}
+					/>
+					<Route
+						path="/CheckOut"
+						element={
+							<>
+								<Support />
+								{<Navbar />}
+								<Checkout />
 								<Footer />
 							</>
 						}
