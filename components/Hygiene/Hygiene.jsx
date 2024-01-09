@@ -342,8 +342,8 @@ const Hygiene = () => {
 		<>
 			<div className="CookPage-container">
 				<div>
-					<h1>Kitchen King</h1>
-					<h2>Cook</h2>
+					<h1>Mr Hygiene</h1>
+					<h2>Toilet Cleaner</h2>
 					<div className="cardbox">
 						<div
 							className="ccard"
@@ -852,7 +852,7 @@ const Hygiene = () => {
 			
 				</div>
 
-				<img src="../../public/temp3.png" alt="" />
+				<img className="cookimg" src="../../public/temp3.png" alt="" />
 			</div>
 		</>
 	);

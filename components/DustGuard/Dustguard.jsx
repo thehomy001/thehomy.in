@@ -342,8 +342,8 @@ const Dustguard = () => {
 		<>
 			<div className="CookPage-container">
 				<div>
-					<h1>Kitchen King</h1>
-					<h2>Cook</h2>
+					<h1>Dust Guard</h1>
+					<h2>Home Cleaners</h2>
 					<div className="cardbox">
 						<div
 							className="ccard"
@@ -852,7 +852,7 @@ const Dustguard = () => {
 			
 				</div>
 
-				<img src="../../public/temp4.png" alt="" />
+				<img className="cookimg" src="../../public/temp4.png" alt="" />
 			</div>
 		</>
 	);
