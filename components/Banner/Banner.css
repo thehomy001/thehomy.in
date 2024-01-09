@@ -1,6 +1,17 @@
 .banner-outer {
 	font-family: "Lato", sans-serif;
 }
+.carousel-control-prev-icon{
+	display: none;
+}
+.carousel-control-prev-icon::after{
+	display: none;
+	
+}
+.carousel-control-next-icon::after{
+	display: none;
+	
+}
 
 .banner-outer h5 {
 	font-weight: 600;

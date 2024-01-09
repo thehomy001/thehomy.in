@@ -50,7 +50,7 @@ h5{
 .social{
     
     align-items: center;
-    margin: 20px;
+    margin-top: 50px;
 }
 .fb, .li, .ig, .x {
     transition: all 0.3s ease-in-out;
