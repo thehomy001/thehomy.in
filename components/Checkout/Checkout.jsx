@@ -79,7 +79,7 @@ class Checkout extends React.Component {
                         <div className="input-group-prepend">
                           <span className="input-group-text">+91</span>
                         </div>
-                        <input type="text" className="form-control" id="number" placeholder="123456789" required />
+                        <input type="number" className="form-control" id="number" placeholder="123456789" required />
                         <div className="invalid-feedback" style={{ width: '100%' }}> Your number is required. </div>
                       </div>
                     </div>
@@ -110,11 +110,11 @@ class Checkout extends React.Component {
                     <hr className="mb-4" />
                     <div className="custom-control custom-checkbox">
                       <input type="checkbox" className="custom-control-input" id="same-address" />
-                      <label className="custom-control-label" htmlFor="same-address">Shipping address is the same as my billing address</label>
+                      <label className="custom-control-label" htmlFor="same-address"> Shipping address is the same as my billing address</label>
                     </div>
                     <div className="custom-control custom-checkbox">
                       <input type="checkbox" className="custom-control-input" id="save-info" />
-                      <label className="custom-control-label " htmlFor="save-info">Save this information for next time</label>
+                      <label className="custom-control-label " htmlFor="save-info"> Save this information for next time</label>
                     </div>
                     {/* <hr className="mb-4" /> */}
                     {/* <h4 className="mb-3">Payment</h4> */}
