@@ -12,6 +12,7 @@
     "@fortawesome/fontawesome-free": "^6.4.2",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.2",
+    "fetch": "^1.1.0",
     "framer-motion": "^10.16.16",
     "mdb-react-ui-kit": "^7.0.0",
     "react": "^18.2.0",

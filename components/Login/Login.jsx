@@ -6,7 +6,40 @@ import { Link } from "react-router-dom";
 import { IoMdPerson } from "react-icons/io";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { BsAlignEnd } from "react-icons/bs";
-function Login() {
+import { useEffect,useState } from "react";
+
+const Login = (props)=>{
+	const [email, setEmail] = useState("");
+	const [password, setPassword] = useState("");
+	const [isApiCall, setIsApiCall] = useState(false);
+// }
+// function Login() {
+
+useEffect(() => {
+	if(isApiCall==false){
+	return;
+	}
+
+
+	fetch("https://jsonplaceholder.typicode.com/users")
+	.then((res) => res.json())
+	.then((json) => {
+		this.setState({
+			items: json,
+			DataisLoaded: true,
+		});
+	});
+	
+   
+
+}, [isApiCall])
+
+function callApiToLogin(e){
+	e.preventDefault();
+	setIsApiCall(true)
+
+
+}
 	return (
 		<div className="spage">
 			<form className="sform">
@@ -36,6 +69,10 @@ function Login() {
 						type="text"
 						className="input"
 						placeholder="Enter your Email"
+						onChange={(e)=>{
+							setEmail(e.target.value)
+						
+						}}
 					/>
 				</div>
 				<div className="flex-column">
@@ -50,14 +87,20 @@ function Login() {
 						type="password"
 						className="input"
 						placeholder="Enter your Password"
+						onChange={(e)=>{
+							setPassword(e.target.value)
+						
+						}}
 					/>
 				</div>
 
 				<span className="login-text">OR</span>
-				<div type="button" className="login-with-google-btn">
+				<div type="button" className="login-with-google-btn" >
 					Sign in with Google
 				</div>
-				<button className="button-submit">Login</button>
+				<button className="button-submit" onClick={(e)=>{
+					callApiToLogin(e);
+				}}>Login</button>
 				<h6>
 					Not a user?
 					<Link to="/signup"
