@@ -6,10 +6,10 @@ import axios from "axios";
 
 
 function Contact() {
-	const [fname, setfname] = useState("");
-	const [lname, setlname] = useState("");
+	const [f_name, setf_name] = useState("");
+	const [l_name, setl_name] = useState("");
 	const [email, setemail] = useState("");
-	const [Number, setNumber] = useState("");
+	const [phone_number, setphone_number] = useState("");
 	const [message, setmessage] = useState("");
 	const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -27,12 +27,12 @@ function Contact() {
 		try {
 	
 		  const data = await axios.post(
-		       "http://127.0.0.1:8000/contact/" ,
+		       "/api/contact/" ,
 			{
-				fname,
-				lname,
+				f_name,
+				l_name,
 				email,
-                Number,
+                phone_number,
 				message,
 			  
 			},
@@ -48,8 +48,8 @@ function Contact() {
 		  
 	
 		} catch (error) {
-		  toast.error(error);
-	
+          
+			console.log("hello error")
 	
 		}finally {
 			setIsSubmitting(false);
@@ -77,9 +77,9 @@ function Contact() {
 							placeholder=""
 							type="text"
 							className="input"
-							value={fname}
+							value={f_name}
                              onChange={(e) => {
-                              setfname(e.target.value);
+                              setf_name(e.target.value);
             }}
 						/>
 						<span>First Name</span>
@@ -91,9 +91,9 @@ function Contact() {
 							placeholder=""
 							type="text"
 							className="input"
-							value={lname}
+							value={l_name}
                              onChange={(e) => {
-                              setlname(e.target.value);
+                              setl_name(e.target.value);
             }}
 						/>
 						<span>Last Name</span>
@@ -121,9 +121,9 @@ function Contact() {
 						placeholder=""
 						type="tel"
 						className="input"
-						value={Number}
+						value={phone_number}
                              onChange={(e) => {
-                              setNumber(e.target.value);
+                              setphone_number(e.target.value);
             }}
 					/>
 					<span>Phone Number</span>
