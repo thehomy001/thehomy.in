@@ -71,7 +71,7 @@ const Pricing = () => {
 								</li>
 								<li>Comes prepared with a kitchen kit.</li>
 							</ul>
-							<a href="./FeebackForm" className="pcard__cta cta">
+							<a href="./cook" className="pcard__cta cta">
 								Get Started
 							</a>
 						</div>
@@ -87,7 +87,7 @@ const Pricing = () => {
 									included.
 								</li>
 							</ul>
-							<a href="./FeebackForm" className="pcard__cta cta">
+							<a href="./cook" className="pcard__cta cta">
 								Get Started
 							</a>
 						</div>
@@ -111,7 +111,7 @@ const Pricing = () => {
 
 								</li>
 							</ul>
-							<a href="./FeebackForm" className="pcard__cta cta">
+							<a href="./cook" className="pcard__cta cta">
 								Get Started
 							</a>
 						</div>
