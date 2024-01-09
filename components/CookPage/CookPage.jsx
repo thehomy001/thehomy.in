@@ -830,6 +830,7 @@ const CookPage = () => {
 													renderCheckboxes()}
 											</div>
 										</div>
+										
 										{/* Buttons */}
 										<Link to="/checkout" style={{ textDecorationLine: "none" }}>
 										<div className="sub-res">
@@ -849,7 +850,7 @@ const CookPage = () => {
 			
 				</div>
 
-				<img src="../../public/temp1.jpg" alt="" />
+				<img className="cookimg" src="../../public/temp1.jpg" alt="" />
 			</div>
 		</>
 	);

@@ -217,7 +217,7 @@ export default function App() {
 								size="lg"
 							/>
 						</Link>
-						<Link to="" target="_blank" style={{ color: "#FFF" }}>
+						<Link to="https://www.linkedin.com/company/thehomy-in/" target="_blank" style={{ color: "#FFF" }}>
 							<MDBIcon
 								fab
 								icon="linkedin-in"

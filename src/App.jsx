@@ -18,7 +18,6 @@ import Pricing from "../components/Pricing";
 import Services from "../components/Services";
 import CookPage from "../components/CookPage";
 import CaretakerPage from "../components/CaretakerPage/CaretakerPage";
-import Payment from "../components/Payment";
 import Dustguard from "../components/DustGuard";
 import Checkout from "../components/Checkout";
 import Dashboard from "../components/Dashboard/Dashboard";
@@ -43,7 +42,7 @@ function App() {
 								{<CenterMode />}
 								{<FeatureBanner />}
 								{<FB />}
-						
+								<Pricing />
 								{<Support />}
 								{<Footer />}
 							</>
