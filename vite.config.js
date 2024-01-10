@@ -8,7 +8,7 @@ export default defineConfig({
 
 
     '/api': {
-      target: 'http://localhost:8080',
+      target: 'http://backend.thehomy.in',
       changeOrigin: true,
      
     },

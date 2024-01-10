@@ -94,18 +94,20 @@ export default function App() {
 								<ul className="list-unstyled mb-0">
 									<li>
 										<Link
-											to="/FeedbackForm"
+											to="/Services"
 											style={{
 												textDecorationLine: "none",
 											}}
+											className="text-footer"
 										>
-											<a className="text-footer">Chef</a>
+											
+											Chef
 										</Link>
 									</li>
 
 									<li>
 									<Link
-											to="/FeedbackForm"
+											to="/Services"
 											style={{
 												textDecorationLine: "none",
 											}}>
@@ -117,15 +119,22 @@ export default function App() {
 										</a>
 										</Link>
 									</li>
-									<li>
 
+									<li>
+									<Link
+											to="/Services"
+											style={{
+												textDecorationLine: "none",
+											}}>
 										<a
 											
 											className="text-footer"
 										>
 											House Cleaners
 										</a>
+										</Link>
 									</li>
+
 								</ul>
 							</MDBCol>
 
@@ -150,7 +159,7 @@ export default function App() {
 								<ul className="list-unstyled mb-0">
 									<li>
 										<a
-											href="#!"
+											href="/refundpolicy"
 											className="text-footer"
 											id="red-link"
 										>
@@ -159,7 +168,7 @@ export default function App() {
 									</li>
 									<li>
 										<a
-											href="#!"
+											href="/privacypolicy"
 											className="text-footer"
 											id="red-link"
 										>
@@ -168,7 +177,7 @@ export default function App() {
 									</li>
 									<li>
 										<a
-											href="#!"
+											href="/termsandcondition"
 											className="text-footer"
 											id="red-link"
 										>

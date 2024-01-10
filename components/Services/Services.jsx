@@ -54,7 +54,7 @@ const Services = () => {
 								<span className="li-style">Kitchen kit</span>
 							</li>
 						</ul>
-						<Link to="/cook" style={{ textDecorationLine: "none" }}>
+						<Link to="/contact" style={{ textDecorationLine: "none" }}>
 							<div className="secbutton servicebtn">
 								Book Now <MdArrowOutward />
 							</div>
@@ -148,7 +148,7 @@ const Services = () => {
 
 						
 						</ul>
-						<Link to="/Dustguard" style={{ textDecorationLine: "none" }}>
+						<Link to="/contact" style={{ textDecorationLine: "none" }}>
 							<div className="secbutton servicebtn">
 								Book Now <MdArrowOutward />
 							</div>
@@ -188,7 +188,7 @@ const Services = () => {
 								cleaner kit</span>
 							</li>
 						</ul>
-						<Link to="/Hygiene" style={{ textDecorationLine: "none" }}>
+						<Link to="/contact" style={{ textDecorationLine: "none" }}>
 					<div className="secbutton servicebtn">Book Now <MdArrowOutward/></div>
 				</Link>
 					</div>

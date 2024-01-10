@@ -89,14 +89,14 @@ export default class CenterMode extends Component {
 				<Slider {...settings}>
 					<div>
 						<Link
-							to="/Dustguard"
+							to="/contact"
 							style={{ textDecorationLine: "none" }}
 						>
 							<img src="./Dustguard.png" alt="" />
 						</Link>
 					</div>
 					<Link
-						to="/cook"
+						to="/contact"
 						style={{ textDecorationLine: "none" }}
 					>
 						<div>
@@ -104,7 +104,7 @@ export default class CenterMode extends Component {
 						</div>
 					</Link>
 					<Link
-						to="/Hygiene"
+						to="/contact"
 						style={{ textDecorationLine: "none" }}
 					>
 						{" "}
@@ -113,7 +113,7 @@ export default class CenterMode extends Component {
 						</div>
 					</Link>
 					<Link
-						to="/Dustguard	"
+						to="/contact"
 						style={{ textDecorationLine: "none" }}
 					>
 						<div>
@@ -121,7 +121,7 @@ export default class CenterMode extends Component {
 						</div>
 					</Link>
 					<Link
-						to="/cook"
+						to="/contact"
 						style={{ textDecorationLine: "none" }}
 					>
 						<div>
@@ -129,7 +129,7 @@ export default class CenterMode extends Component {
 						</div>
 					</Link>
 					<Link
-						to="/Hygiene"
+						to="/contact"
 						style={{ textDecorationLine: "none" }}
 					>
 						<div>

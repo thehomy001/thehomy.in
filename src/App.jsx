@@ -23,6 +23,14 @@ import Checkout from "../components/Checkout";
 import Dashboard from "../components/Dashboard/Dashboard";
 import FeebackForm from "../components/FeedbackForm";
 import Hygiene from "../components/Hygiene";
+   
+import Privacypolicy from "../components/privacypolicy/privacypolicy/Privacypolicy";
+import Termsandcondition from "../components/termandconditions/termandconditions/Termsandcondition";
+import RefundPoicy from "../components/refundpolicy/refundpolicy/RefundPoicy";
+
+
+
+  import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -183,6 +191,8 @@ function App() {
 							</>
 						}
 					/>
+
+
 					<Route
 						path="/CheckOut"
 						element={
@@ -194,7 +204,56 @@ function App() {
 							</>
 						}
 					/>
+                   
+				   <Route
+						path="/privacypolicy"
+						element={
+							<>
+									{<Navbar />}
+								{<Privacypolicy/>}
+								{<Footer />}
+							</>
+						}
+					/>
+
+                 <Route
+						path="/termsandcondition"
+						element={
+							<>
+									{<Navbar />}
+								{<Termsandcondition/>}
+								{<Footer />}
+							</>
+						}
+					/>
+        
+
+		<Route
+						path="/refundpolicy"
+						element={
+							<>
+									{<Navbar />}
+								{<RefundPoicy />}
+								{<Footer />}
+							</>
+						}
+					/>
+
+
+
+
+
+
+
+
 				</Routes>
+
+
+				
+
+
+
+
 			</Router>
 		</div>
 	);
